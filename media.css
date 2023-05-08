@@ -19,9 +19,14 @@
 a{
     text-decoration: none; 
     color: #311a2d; 
+    display: flex;
     /* font-size: 1rem; */
 }
-
+h1{
+    text-decoration: none; 
+    color: #311a2d; 
+    font-size: 2rem;
+}
 a:hover{ 
     color: rgb(105, 71, 100);
 }
@@ -41,11 +46,11 @@ header{
     justify-content: space-between;
 }
 
-.navbar .logo a{
+/* .navbar .logo a{
     /* width: 200px; */
-    font-size: 1.5rem; 
+    /* font-size: 1.5rem; 
     font-weight: bold;
-}
+} */ 
 
 .navbar .links{
     margin-top: 50px;
@@ -152,13 +157,14 @@ section#hero{
         width: 100%;
     }
 } */
-#bg-video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
+img {
+    position: relative;
+    /* right: 0;
+    bottom: 0; */
+    margin: 50px 0px 30px 240px;
+    padding: 5px 10px;
+    width: 700px;
+    height: 300px;
   }
   
   .video-container {

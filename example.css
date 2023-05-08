@@ -21,6 +21,11 @@
      color: #311a2d; 
      /* font-size: 1rem; */
  }
+ h1{
+     text-decoration: none; 
+     color: #311a2d; 
+     font-size: 2rem;
+ }
  
  a:hover{ 
      color: rgb(105, 71, 100);
@@ -81,6 +86,10 @@
  
  .action_btn:active{ 
      scale: 0.95;
+     color: #967998;
+ }
+ a:active {
+     color: #d4bbd6;
  }
  
  .dropdown_menu{ 
