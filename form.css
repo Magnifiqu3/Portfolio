@@ -1,0 +1,88 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+   Body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+    /* font-family: inter; */
+    /* font-family: Salsa; */
+  }  
+
+    h1{
+        color: #27103e;
+    }
+  
+   input[type=text], input[type=password] {   
+          border: 3px;
+          border-radius: 3px;
+          width: 500px;   
+          margin: 8px 0;  
+          padding: 12px 20px;   
+      }  
+
+   button:hover {   
+          opacity: 0.7;   
+      }            
+       
+   .container { 
+          direction:flex ; 
+          justify-content: flex-end;
+          width: 600px;
+          margin-top: 50px;
+          margin-left: 500px;
+          padding: 25px;   
+          background-color: rgb(185, 176, 211);  
+      }
+      
+      a {
+        color: aliceblue;
+        display: inline-block;
+        height: 50px;
+        width: 500px;
+        background: rgb(84, 61, 110); 
+        transition: 0.6s;
+        padding-left: 20px; 
+        padding-right: 20px;
+        line-height: 50px;
+        text-decoration: none;
+        border: 3px;
+        border-radius: 2px;
+      }
+      a:hover {
+        background: rgb(66, 247, 66);
+        color: rgb(39, 9, 63);
+      }     
+  .email{
+    visibility: hidden;
+  }
+  .password{
+    visibility: hidden;
+  }
+  .active{
+    visibility: visible;
+  }
+  #email-error{
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #935252;
+  }
+#text{
+  display: block;
+  color: #000;
+  font-weight: 300;
+  /* font-style: italic; */
+  padding: 3px;
+}
+#form #inputBox:before{
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 24px;
+  height: 24px;
+  /* background: url; */
+  
+}
