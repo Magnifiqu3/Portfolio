@@ -12,7 +12,7 @@
     background-position: center;
 }
 
- li{ 
+ li{  
     list-style: none;
 } 
 
@@ -56,6 +56,8 @@ header{
     margin-top: 50px;
     display: flex; 
     gap: 2rem;
+    justify-content: space-between;
+    padding: 80px;
 }
 
 .navbar .toggle_btn{ 
@@ -121,11 +123,18 @@ header{
 section#hero{ 
     height: calc(100vh - 60px); 
     display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
+    /* flex-direction: column;  */
+    /* align-items: center;  */
+    /* justify-content: center;  */
+    /* text-align: center;  */
     color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hero h2{
+    padding: 40px 10px 20px 110px;
+    /* margin-left: 20px; */
+    /* margin-bottom: 1rem; */
+
 }
 
 /* #hero h1{ 
@@ -158,12 +167,12 @@ section#hero{
     }
 } */
 img {
-    position: relative;
+    /* position: relative; */
     /* right: 0;
     bottom: 0; */
-    margin: 50px 0px 30px 240px;
+    margin: 50px 0px 30px 40px;
     padding: 5px 10px;
-    width: 700px;
+    width: 600px;
     height: 300px;
   }
   
