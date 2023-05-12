@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greetings Form</title>
+</head>
+<body>
+	<h1>Greetings Form</h1>
+	<form>
+		<label for="name">Enter your name:</label>
+		<input type="text" id="name" name="name"><br>
+
+		<label for="time">Choose the time:</label>
+		<select id="greeting" name="greeting">
+			<option value="hello">Hello</option>
+			<option value="hi">Hi</option>
+			<option value="hey">Hey</option>
+			<option value="greetings">Greetings</option>
+		</select><br>
+    <button type="button" onclick="displayGreeting()">Submit</button>
+	</form>
+    <div id="greetingDisplay"></div>
+	<script>
+		function displayGreeting() {
+			const name = document.getElementById("name").value;
+			const greeting = document.getElementById("greeting").value;
+
+			const greetingText = `${greeting}, ${name}!`;
+
+			document.getElementById("greetingDisplay").textContent = greetingText;
+		}
+	</script>
+</body>
+</html>
